@@ -1,13 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * Print Alphabet - Function
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int print_alphabet(void)
 {
-	printf("_putchar\n");
+	char c;
 
+	for (c = 'a'; c <= 'z'; ++c)
+	{
+		putchar(c);
+	}
+	putchar('\n'); /* print new line */
 	return (0);
 }
