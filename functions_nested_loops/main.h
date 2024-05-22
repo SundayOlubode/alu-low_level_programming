@@ -1,4 +1,7 @@
-#include <stdio.h>
+#ifndef HEADER_FILE
+#define HEADER_FILE
+
+#include "_putchar.c"
 
 /**
  * Print Alphabet - Function
@@ -11,8 +14,9 @@ int print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; ++c)
 	{
-		putchar(c);
+		_putchar(c);
 	}
-	putchar('\n'); /* print new line */
+	_putchar('\n'); /* print new line */
 	return (0);
 }
+#endif
