@@ -1,16 +1,18 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
-
 #include "main.h"
 
 /**
- * main - check the code
+ * Print alphabet - prints alphabet
  *
- * Return: Always 0.
+ * Return: 0
  */
-int main(void)
+int print_alphabet(void)
 {
-	print_alphabet();
+	char c;
+
+	for (c = 'a'; c <= 'z'; ++c)
+	{
+		_putchar(c);
+	}
+	_putchar('\n'); /* print new line */
 	return (0);
 }
-#endif
