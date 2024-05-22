@@ -1,3 +1,4 @@
 #include "_putchar.c"
 
-int print_alphabet(void);
+int _putchar(char c);
+void print_alphabet(void);
