@@ -8,14 +8,16 @@
 void print_alphabet_x10(void)
 {
 	char c = 'a';
-	int i;
-	char* alphabet = '';
+	int i = 0;
+	char alphabet[27];
 
 	while(c <= 'z')
 	{
-		alphabet += c;
-		c++;
+		alphabet[i] = c;
+		i++;
 	}
+
+	alphabet[i] = 0;
 
 	for (i = 0; i < 10; i++)
 	{
