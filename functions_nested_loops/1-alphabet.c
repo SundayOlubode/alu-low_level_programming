@@ -1,18 +1,6 @@
 #include "main.h"
 
 /**
- * main - entry point
- *
- * return 0 - Success
- */
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
-
-/**
  * print_alphabet - prints alphabet
  *
  * Return: void
@@ -27,4 +15,16 @@ void print_alphabet(void)
 		character++;
 	}
 	_putchar('\n');
+}
+
+/**
+ * main - entry point
+ *
+ * return 0 - Success
+ */
+int main(void)
+{
+	print_alphabet();
+
+	return (0);
 }
