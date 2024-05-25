@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * _abs -  Return absolute of input
- * @n: input
- * Return: n
+ * times_table -  Print 9 row and cols of the times table
+ * Return: void
  */
 void times_table(void)
 {
