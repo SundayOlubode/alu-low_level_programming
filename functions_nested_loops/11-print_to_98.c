@@ -15,7 +15,7 @@ void print_to_98(int n)
 			_putchar(n + '0');
 			if (n != 98)
 			{
-				_putchar(', ');
+				printf(', ');
 			}
 			n++;
 		}
@@ -27,7 +27,7 @@ void print_to_98(int n)
 			_putchar(n + '0');
 			if (n != 98)
 			{
-				_putchar(', ');
+				printf(', ');
 			}
 			n--;
 		}
