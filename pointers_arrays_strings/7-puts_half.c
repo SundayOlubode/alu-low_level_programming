@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * puts_half - Put half of the string
+ * @str: input string
+ * Return void
+ */
 void puts_half(char *str)
 {
 	int j = 0;
@@ -14,7 +19,7 @@ void puts_half(char *str)
 	{
 		k = (j - 1) / 2;
 		k += 1;
-	}else
+	} else
 	{
 		k = j / 2;
 	}
