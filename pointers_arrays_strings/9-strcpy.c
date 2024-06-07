@@ -4,7 +4,7 @@
  * _strcpy - Copy String
  * @dest: Destination
  * @src: Source
- * Return char *
+ * Return: pointer to copied char *
  */
 char *_strcpy(char *dest, char *src)
 {
