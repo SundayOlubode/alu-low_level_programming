@@ -1,5 +1,5 @@
-#include <main.h>
-#include <_putchar.c>
+#include "main.h"
+#include "_putchar.c"
 
 /**
  * reset_to_98 - Update pointer value to 98
