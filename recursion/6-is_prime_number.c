@@ -24,7 +24,7 @@ int is_prime_number(int n)
  */
 int _helper(int n, int i)
 {
-	if (i > n/2)
+	if (i > n / 2)
 	{
 		return (1);
 	}
