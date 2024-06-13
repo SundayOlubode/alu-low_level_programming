@@ -22,7 +22,7 @@ int _sqrt_recursion(int n)
  * @root: int arg
  * Return: int
  */
-int root_helper(int n, int root);
+int root_helper(int n, int root)
 {
 	if ((root * root) == n)
 	{
