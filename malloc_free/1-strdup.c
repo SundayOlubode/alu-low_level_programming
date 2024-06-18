@@ -2,19 +2,23 @@
 #include <stdlib.h>
 
 /**
- * create_array - Create Array
+ * create_array - Copy Array
  * @str: arg - size of array
  * Return: char *
 */
 char *_strdup(char *str)
 {
-	int *p;
-	
-	if (size == 0)
-	{
-		return (NULL);
-	}
+	char *dup;
 
-	p = malloc(sizeof(c) * size);
-	return (p);
+	int i, len = 0;
+
+	if (str == NULL)
+		return (NULL);
+	for (i = 0; str[i]; ++i)
+		++len;
+	dup = malloc(sizeof(char) * (len + 1));
+	for (i = 0; str[i]; ++i)
+		dup[i] = str[i];
+	dup[len] = '\0';
+	return (dup);
 }
