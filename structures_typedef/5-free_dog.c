@@ -7,5 +7,11 @@
  */
 void free_dog(dog_t *d)
 {
-	free(d);
+	if (d != NULL)
+	/* check to avoid dereferencing a NULL pointer */
+	{
+		free(d->name);
+		free(d->owner);
+		free(d);
+	}
 }
